@@ -9,5 +9,4 @@ floatRate= float(strRate)
 # Compute gross pay
 grossPay = floatHrs*floatRate
 
-print("Pay:" + " ")
-print(grossPay)
+print("Pay:" + " " + str(grossPay))
