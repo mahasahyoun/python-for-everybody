@@ -1,12 +1,19 @@
-# Get inputs as string
-strHrs = input("Enter Hours: ")
-strRate = input("Enter Rate: ")
+"""
+Write a program to prompt the user for hours and rate per hour using input to
+compute gross pay. Use 35 hours and a rate of 2.75 per hour to test the program
+(the pay should be 96.25). You should use input to read a string and float() to
+convert the string to a number. Do not worry about error checking or bad user data.
+"""
 
-# Convert input from string to number
+# Get inputs as strings
+strHrs = input("Enter Hours:")
+strRate = input("Enter Rate:")
+
+# Convert inputs from string to number
 floatHrs = float(strHrs)
 floatRate= float(strRate)
 
 # Compute gross pay
-grossPay = floatHrs*floatRate
+grossPay = floatHrs * floatRate
 
-print("Pay:" + " " + str(grossPay))
+print("Pay:", grossPay)
